@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Result</h1>
+<p th:text="'String: ' + ${greeting.firstname}" />
+<p th:text="'Surname: ' + ${greeting.surname}" />
+<p th:text="'Second Name: ' + ${greeting.secondName}" />
+<p th:text="'Age: ' + ${greeting.age}" />
+<p th:text="'Salary: ' + ${greeting.salary}" />
+<p th:text="'E-mail: ' + ${greeting.email}" />
+<p th:text="'Name Job: ' + ${greeting.nameJob}" />
+<a href="/greeting">Submit another message</a>
+</body>
+</html>

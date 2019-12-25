@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Form</h1>
+<form action="#" th:action="@{/greeting}" th:object="${greeting}" method="post">
+    <p>Firstname: <input type="text" th:field="*{firstname}" pattern="^[A-Z][a-z]*(\\s(([a-z]{1,3})|(([a-z]+\\')?[A-Z][a-z]*)))*$" /></p>
+    <p>Surname: <input type="text" th:field="*{surname}" /></p>
+    <p>Middle Name: <input type="text" th:field="*{secondName}" /></p>
+    <p>Age: <input type="text" th:field="*{age}" pattern="[0-9]\d+" /></p>
+    <p>Salary: <input type="text" th:field="*{salary}" /></p>
+    <p>E-mail: <input type="text" th:field="*{email}" pattern="^((([0-9A-Za-z]{1}[-0-9A-z\.]{1,}[0-9A-Za-z]{1})|([0-9А-Яа-я]{1}[-0-9А-я\.]{1,}[0-9А-Яа-я]{1}))@([-A-Za-z]{1,}\.){1,2}[-A-Za-z]{2,})"/></p>
+    <p>Place of Work: <input type="text" th:field="*{nameJob}" /></p>
+    <p><input type="submit" value="Next" /> <input type="reset" value="Reset" /></p>
+    <p><input type="search" name="str" placeholder="Search">
+        <input type="submit" value="Searching"></p>
+</form>
+</body>
+</html>

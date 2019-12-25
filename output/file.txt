@@ -1,0 +1,1 @@
+Greeting{firstname='Sidr', surname='Petrov', secondName='Ivanovich', age=40, salary=40000.0, email='ivan@mail.ru', nameJob='school'}

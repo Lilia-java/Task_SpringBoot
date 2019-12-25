@@ -1,15 +1,12 @@
-В папке output лежат текстовые файл, с которыми и работаю
-Для первого задания:GreetingController из src\main\java\hw\controller,Greeting из src\main\java\hw\model
-,greeting,result из src\main\resources\templates
-Для второго задания:в greeting из src\main\resources\templates есть pattern с regexp 
-Для третьего задания: gresearch,search(пользователь найден),unsearch(пользователь не найден) из src\main\resources\templates
-, SearchController из src\main\java\hw\controller, Searching из src\main\java\hw\model
-Для четвертого задания:FileController из src\main\java\hw\controller
-, upload,file_success,file_exc,file_null,app-config из src\main\resources\templates
-Для пятого задания: MailConfig из src\main\java\hw\configuration, MyConstants из src\main\java\hw\data_const
-, EmailController из src\main\java\hw\controller
+Р’ РїР°РїРєРµ output Р»РµР¶Р°С‚ С‚РµРєСЃС‚РѕРІС‹Рµ С„Р°Р№Р», СЃ РєРѕС‚РѕСЂС‹РјРё Рё СЂР°Р±РѕС‚Р°СЋ
+Р”Р»СЏ РїРµСЂРІРѕРіРѕ Р·Р°РґР°РЅРёСЏ:GreetingController РёР· src\main\java\hw\controller, Greeting РёР· src\main\java\hw\model, greeting, result РёР· src\main\resources\templates
+Р”Р»СЏ РІС‚РѕСЂРѕРіРѕ Р·Р°РґР°РЅРёСЏ:РІ greeting РёР· src\main\resources\templates РµСЃС‚СЊ pattern СЃ regexp 
+Р”Р»СЏ С‚СЂРµС‚СЊРµРіРѕ Р·Р°РґР°РЅРёСЏ: gresearch, search(РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ РЅР°Р№РґРµРЅ), unsearch(РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ РЅРµ РЅР°Р№РґРµРЅ) РёР· src\main\resources\templates, SearchController РёР· src\main\java\hw\controller, Searching РёР· src\main\java\hw\model
+Р”Р»СЏ С‡РµС‚РІРµСЂС‚РѕРіРѕ Р·Р°РґР°РЅРёСЏ:FileController РёР· src\main\java\hw\controller, upload,file_success,file_exc,file_null,app-config РёР· src\main\resources\templates
+Р”Р»СЏ РїСЏС‚РѕРіРѕ Р·Р°РґР°РЅРёСЏ: MailConfig РёР· src\main\java\hw\configuration, MyConstants РёР· src\main\java\hw\data_const
+, EmailController РёР· src\main\java\hw\controller
 
-Ссылки, на которых тестировала:
+РЎСЃС‹Р»РєРё, РЅР° РєРѕС‚РѕСЂС‹С… С‚РµСЃС‚РёСЂРѕРІР°Р»Р°:
 http://localhost:8080/greeting
 http://localhost:8080/gresearch
 http://localhost:8080/uploading
